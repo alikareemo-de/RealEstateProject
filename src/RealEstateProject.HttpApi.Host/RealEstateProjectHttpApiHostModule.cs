@@ -78,17 +78,17 @@ public class RealEstateProjectHttpApiHostModule : AbpModule
             options.MinimumSameSitePolicy = SameSiteMode.None;
         });
         context.Services.AddOptions();
-        context.Services.AddMemoryCache();
+        context.Services.AddDistributedMemoryCache();
         context.Services.AddInMemoryRateLimiting();
         context.Services.Configure<IpRateLimitOptions>(configuration.GetSection("IpRateLimiting"));
 
         context.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
 
-        context.Services.AddStackExchangeRedisCache(options =>
-        {
-            options.Configuration = "localhost:6379";
-            options.InstanceName = "RealEstate_";
-        });
+        //context.Services.AddStackExchangeRedisCache(options =>
+        //{
+        //    options.Configuration = "localhost:6379";
+        //    options.InstanceName = "RealEstate_";
+        //});
         context.Services.AddAbpApiVersioning(options =>
         {
             options.AssumeDefaultVersionWhenUnspecified = true;
