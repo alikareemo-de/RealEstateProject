@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Volo.Abp.Domain.Entities;
 
-namespace RealEstateProject
+namespace RealEstateProject.Entites
 {
     // Feature System
     public class Feature : AggregateRoot<Guid>

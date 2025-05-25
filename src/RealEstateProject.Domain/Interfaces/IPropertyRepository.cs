@@ -1,10 +1,11 @@
 ﻿using RealEstateProject.Dtos;
+using RealEstateProject.Entites;
 using RealEstateProject.Enums;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace RealEstateProject
+namespace RealEstateProject.Interfaces
 {
     public interface IPropertyRepository
     {

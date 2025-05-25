@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Volo.Abp.Domain.Entities;
 
-namespace RealEstateProject
+namespace RealEstateProject.Entites
 {
     // Repeat similar structure for Amenity and NearbyPlace
     public class Amenity : AggregateRoot<Guid>

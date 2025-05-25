@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RealEstateProject.Dtos;
+using RealEstateProject.Entites;
 using RealEstateProject.EntityFrameworkCore;
 using RealEstateProject.Enums;
+using RealEstateProject.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +12,7 @@ using Volo.Abp.Domain.Repositories.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore;
 
 
-namespace RealEstateProject
+namespace RealEstateProject.Repo
 {
     public class PropertyRepository : EfCoreRepository<RealEstateProjectDbContext, Property, Guid>, IPropertyDataSource
     {

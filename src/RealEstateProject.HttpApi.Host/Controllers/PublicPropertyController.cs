@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RealEstateProject.Dtos;
+using RealEstateProject.Interfaces;
 using System;
 using System.Threading.Tasks;
 

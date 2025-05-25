@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Volo.Abp.Domain.Entities;
 using Volo.Abp.Identity;
 
-namespace RealEstateProject
+namespace RealEstateProject.Entites
 {
     // Agent Aggregate Root
     public class Agent : AggregateRoot<Guid>
