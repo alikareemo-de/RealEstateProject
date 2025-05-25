@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Caching.Distributed;
+using RealEstateProject.Dtos;
+using RealEstateProject.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text.Json;

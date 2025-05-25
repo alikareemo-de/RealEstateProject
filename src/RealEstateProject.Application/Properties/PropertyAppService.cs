@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using RealEstateProject.Dtos;
+using RealEstateProject.Interfaces;
 using System;
 using Volo.Abp.Application.Dtos;
 using Volo.Abp.Application.Services;

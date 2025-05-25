@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RealEstateProject.Enums;
+using System;
 using System.Collections.Generic;
 using Volo.Abp.Domain.Entities;
 

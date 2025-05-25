@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RealEstateProject.Dtos;
 using RealEstateProject.EntityFrameworkCore;
+using RealEstateProject.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;

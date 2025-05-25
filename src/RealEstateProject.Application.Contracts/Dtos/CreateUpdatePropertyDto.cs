@@ -1,7 +1,8 @@
-﻿using System;
+﻿using RealEstateProject.Enums;
+using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace RealEstateProject
+namespace RealEstateProject.Dtos
 {
     public class CreateUpdatePropertyDto
     {

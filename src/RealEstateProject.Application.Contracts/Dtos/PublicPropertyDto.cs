@@ -1,6 +1,7 @@
-﻿using System;
+﻿using RealEstateProject.Enums;
+using System;
 
-namespace RealEstateProject
+namespace RealEstateProject.Dtos
 {
     public class PublicPropertyDto
     {

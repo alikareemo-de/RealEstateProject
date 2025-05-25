@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RealEstateProject
+namespace RealEstateProject.Dtos
 {
     public class PropertyListDto
     {
